@@ -18,11 +18,12 @@ class Movie extends Component{
   }
 }
 */
-function Movie({title,poster}){
+function Movie({title,poster,descrption}){
   return(
     <div>
       <h1>{title}</h1>
       <MoviePoster poster={poster} />
+      <h1>{descrption}</h1>
     </div>
   );
 }
